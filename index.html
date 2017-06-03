@@ -2,6 +2,17 @@
 layout: page
 description: "record somthing and share it"
 ---
+<div class="category">
+    <ul>
+        {% for category in site.categories %}
+            <li><a href="{{ site.BASE_PATH }}/category.html#{{ category[0] }}-ref">
+            {{ category[0] }}  <!-- 类别名 -->
+            <span>{{ category[1].size }}</span>  <!-- 该类下 post 数量 -->
+            <!-- <=> {{ site.categories[category].size }} -->
+            </a></li>
+        {% endfor %}
+    </ul>
+</div>
 
 {% for post in paginator.posts %}
 <div class="post-preview">

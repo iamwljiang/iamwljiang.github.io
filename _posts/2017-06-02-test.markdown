@@ -4,6 +4,8 @@ title: test
 description: 这里的 Description 是自定义属性
 categories: [cate1]
 tags: [github-page, jekyll, liquid]
+author:     "Start Bootstrap"
+header-img: "img/post-bg-06.jpg"
 ---
 
 # 大模块索引 如数据存储 - 快速索引
