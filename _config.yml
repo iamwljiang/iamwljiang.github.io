@@ -17,6 +17,7 @@ email_username:  along322@163.com
 
 # Build settings
 markdown: kramdown
+safe: false
 highlighter: rouge
 permalink: pretty
 paginate: 5
