@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 随笔
+title: 云存储
 brief-intro: 好记性不如烂笔头
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://iamwljiang.github.io" # the base hostname & protocol for your site
@@ -23,7 +23,7 @@ zhihu_username:
 linkedIn_username: 
 dribbble_username:
 
-description_footer: 本站记录我分布式领域之旅的沿途风景！
+description_footer: 本站记录我在分布式领域的学习，见解以及团队成员内容分享与交流！
 
 # comments
 # two ways to comment, only choose one, and use your own short name

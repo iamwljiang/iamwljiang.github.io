@@ -1,0 +1,11 @@
+_site
+.DS_Store
+Gemfile.lock
+*.swp
+*.log
+.idea
+.tmp
+dump.rdb
+.sass-cache
+.jekyll-metadata
+_drafts/
